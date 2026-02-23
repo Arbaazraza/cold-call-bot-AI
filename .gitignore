@@ -1,0 +1,47 @@
+# --- Environment / Secrets ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Python ---
+venv/
+env/
+ENV/
+bin/
+lib/
+include/
+share/
+*.pyc
+__pycache__/
+.python-version
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Node / React ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+build/
+dist/
+.next/
+out/
+.parcel-cache
+.cache
+
+# --- OS Specific ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- Project Specific Artifacts ---
+# You want to ignore the generated outcome files so your repo stays clean
+outcome.json
+logs/
+*.log
